@@ -1,0 +1,112 @@
+
+#corpo {
+    border: 2px solid grey;
+    align-items: center;
+    padding: 10px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color:rgba(235, 227, 11, 0.244)
+}
+
+#cabecalho {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+    align-items: center;
+}
+
+#console {
+    align-items: center;
+    font-family: monospace;
+    font-size: 25px;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    margin: 20px 0;
+    text-align: center;
+    width: 100%;
+
+
+}
+
+#direita {
+    display: flex;
+    gap: 10px
+}
+
+#p1 {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace
+}
+
+#p2, #p3 {
+    font-size: 14px;
+    text-align: center;
+    border-radius: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#galeria {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+    background-color: white;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.card-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    font-size: 18px;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    text-align: center;
+    padding-left: 10px;
+}
+
+#carregarmais {
+    font-size: 20px;
+    font-family: monospace;
+    background-color: rgb(213, 213, 213);
+    padding: 8px;
+    border-radius: 10px;
+    align-items: center;
+    cursor: pointer;
+    margin: 15px auto;
+    margin-left: 615px;
+    border: 2px solid grey;
+
+
+}
+
