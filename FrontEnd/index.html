@@ -3,6 +3,7 @@
 <html>
     <head> 
         <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer">
         <title>
             Galeria de Games
         </title>
@@ -11,18 +12,28 @@
     <body>
         <header>
             <div>
-                <img src = "https://www.freeiconspng.com/uploads/controller-icon-5.png" alt="Galeria" width="80" height="auto">
+                <img src = "https://www.freeiconspng.com/uploads/controller-icon-5.png" alt="Galeria" width="80" height="auto" style="filter: invert();">
             </div>
+
+            <div id="pop-pesquisa" class="pop-pesquisa">
+                <input type="text" id="input-pesquisa" placeholder="Pesquisar jogos....">
+                <button id="botao-pesquisa">
+                        <i class="fa-solid fa-magnifying-glass"> </i>
+                </button>   
+            </div>
+
             <div>
                 <div>
-                    <button>Redes Sociais</button>
+                    <button id="pesquisa">
+                        <i class="fa-solid fa-magnifying-glass icone-pesquisa"> </i>
+                    </button>
                 </div>
             </div>
         </header>
 
         <div>
-            <div> 
-                Consoles Disponiveis 
+            <div id="titulo"> 
+                Consoles Disponiveis
             </div>
         </div>
 
