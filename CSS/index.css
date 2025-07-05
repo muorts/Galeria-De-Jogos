@@ -18,6 +18,9 @@ i {
     background-color:  rgb(83, 81, 81);
     border: none;
     cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
 }
 
 .icone-pesquisa {
@@ -30,4 +33,24 @@ i {
     text-align: center;
     font-size: 30px;
     text-shadow: 2px 3px rgb(63, 62, 62);
+}
+
+#campo-pesquisa {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#pop-pesquisa {
+    display: none;
+    pointer-events: none;
+    transition: opacity 0.3 ease, transform 0.3s ease;
+
+}
+
+#pop-pesquisa.active {
+    display:flex;
+    opacity: 1;
+    transform: translateY();
+    pointer-events: auto;
 }
